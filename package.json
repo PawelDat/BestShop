@@ -1,5 +1,17 @@
 {
+  "name": "BestShop",
+  "version": "2.0.0",
+  "devDependencies": {
+    "sass": "^1.49.9"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "browserslist": [
+    "defaults"
+  ],
   "dependencies": {
-    "node-sass": "^7.0.1"
+    "parcel-bundler": "^1.12.5"
   }
 }
